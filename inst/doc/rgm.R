@@ -1,4 +1,4 @@
-## ---- include = FALSE---------------------------------------------------------
+## ----include = FALSE----------------------------------------------------------
 knitr::opts_chunk$set(
   collapse = TRUE,fig.width=6, fig.height=4
 )
@@ -35,7 +35,7 @@ knitr::opts_chunk$set(
 #  
 #  
 
-## ---- eval=FALSE--------------------------------------------------------------
+## ----eval=FALSE---------------------------------------------------------------
 #  
 #  ps = rgm:::post_processing_rgm(simulated_data = a,results = res)
 #  

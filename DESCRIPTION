@@ -1,7 +1,7 @@
 Package: rgm
 Type: Package
 Title: Advanced Inference with Random Graphical Models
-Version: 1.0.3
+Version: 1.0.4
 Authors@R: 
     c(person("Francisco", "Richter", email = "richtf@usi.ch", role = c("aut", "cre")),
       person("Veronica", "Vinciotti", email = "veronica.vinciotti@unitn.it", role = c("ctb")),
@@ -10,17 +10,17 @@ Description: Implements state-of-the-art Random Graphical Models (RGMs) for mult
 License: MIT + file LICENSE
 Encoding: UTF-8
 Depends: R (>= 3.5.0)
-Imports: truncnorm, BDgraph, MASS, huge
+Imports: truncnorm, BDgraph, MASS, huge, ggplot2, stats, pROC, reshape2
 LinkingTo: Rcpp
 RoxygenNote: 7.3.0
 BugReports: https://github.com/franciscorichter/rgm/issues
 Suggests: knitr, rmarkdown
 VignetteBuilder: knitr
 NeedsCompilation: yes
-Packaged: 2024-03-12 08:15:54 UTC; pancho
+Packaged: 2024-03-21 14:58:35 UTC; pancho
 Author: Francisco Richter [aut, cre],
   Veronica Vinciotti [ctb],
   Ernst Wit [ctb]
 Maintainer: Francisco Richter <richtf@usi.ch>
 Repository: CRAN
-Date/Publication: 2024-03-12 14:10:11 UTC
+Date/Publication: 2024-03-21 17:40:02 UTC
